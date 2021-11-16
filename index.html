@@ -1,0 +1,140 @@
+<html>
+  <head>
+    <title>Product Landing</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!----------------------HEADER--------------------------->
+    <header id="header">
+      <img id="header-img" src="logo.jpg" />
+      <nav id="nav-bar">
+        <a class="btnh nav-link" href="#feat">Features</a>
+        <a class="btnh nav-link" href="#location">Where Are We</a>
+        <a class="btnh nav-link" href="#price">Pricing</a>
+      </nav>
+    </header>
+
+    <section id="main">
+      <section id="feat">
+        <div id="container">
+          <div id="btns">
+            <a class="btn" href="https://www.adidas.com/us/men-top_gifts"
+              >Men</a
+            >
+            <a class="btn" href="https://www.adidas.com/us/women-top_gifts"
+              >Female</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <video id="video" width="60%" height="auto" controls>
+        <source src="https://www.youtube.com/watch?v=Rwk5PdpTxSU" />
+        Your browser does not support the video tag.
+      </video>
+
+      <section id="location">
+        <div id="contacttext">
+          <p>
+            We're always nearby.<br />Our main office is mentioned on the map to
+            the right.
+          </p>
+          <p>You can also contact us using the following:<br /></p>
+          <ul>
+            <li>
+              Email:
+              <a href="mailto:investor.relations@adidas.com"
+                >investor.relations@adidas.com</a
+              >
+            </li>
+            <li>
+              Main office number: <a href="tel:+96101429850">01 429 850</a>
+            </li>
+          </ul>
+        </div>
+        <div id="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52999.4688960032!2d35.52920795443153!3d33.87762968118771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17aa1989c6cf%3A0x52d671b07e45c6e9!2sadidas%20office%20Lebanon!5e0!3m2!1sen!2slb!4v1636455954792!5m2!1sen!2slb"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+      <section id="price">
+        <h2 id="price">These are some of our bestsellers</h2>
+        <div id="bestsellers">
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img1.png" />
+              <p class="price">$55</p>
+            </div>
+            <p>Adicolor Essentials Trefoil Hoodie</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img2.png" />
+              <p class="price">$140</p>
+            </div>
+            <p>NMD_R1 Primeblue Shoes</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img3.png" />
+              <p class="price">$22</p>
+            </div>
+            <p>Trefoil Beanie</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img4.png" />
+              <p class="price">$50</p>
+            </div>
+            <p>Tiro 21 Track Jacket</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img5.png" />
+              <p class="price">$180</p>
+            </div>
+            <p>Ultraboost 4.0 DNA Shoes</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img6.png" />
+              <p class="price">$45</p>
+            </div>
+            <p>Tiro 21 Track Pants</p>
+          </div>
+          <div class="producttile">
+            <div class="imgtile">
+              <img src="products/img7.png" />
+              <p class="price">$25</p>
+            </div>
+            <p>AEROREADY Designed 2 Move Feelready</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--------------------------FOOTER------------------------->
+    <footer>
+      <p>
+        Interested in what you see?<br />Enter your email for promotional offers
+      </p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <input id="submit" type="submit" />
+      </form>
+    </footer>
+  </body>
+</html>
